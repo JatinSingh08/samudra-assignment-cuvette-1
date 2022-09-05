@@ -2,7 +2,8 @@
   text-align: center;
 }
 * {
-  background-color: #1E1E1E;
+  background-color: black;
+  padding-top: 2.5px;
 }
 
 .App-logo {

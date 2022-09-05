@@ -1,5 +1,6 @@
 import './App.css';
-import Gallery from './components/Gallery';
+import Gallery from './components/Gallery1';
+import Gallery2 from './components/Gallery2';
 import Header from './components/Header';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       
       <Header />
       <Gallery />
+      <Gallery2 />
     </div>
   );
 }
