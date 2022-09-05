@@ -1,6 +1,8 @@
 import React from 'react'
 import {FiSettings} from 'react-icons/fi'
 import {IoIosNotificationsOutline} from 'react-icons/io'
+import {AiOutlinePlusCircle} from 'react-icons/ai'
+
 function Header() {
   return (
     <div>
@@ -17,19 +19,26 @@ function Header() {
       
         <IoIosNotificationsOutline className='text-[#6F7378] text-4xl cursor-pointer hover:text-gray-600'/>
     </a>
-    <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center bg-[#000000] rounded-2xl">
-      <div className='bg-[#323337] rounded-xl'>
+    <div className="md:ml-auto md:mr-auto flex flex-wrap flex-row  items-center text-base justify-center bg-[#000000] rounded-2xl ">
+      <div className=' rounded-xl bg-[#323337] max-w-3xl '>
+        <div className='w-24 mx rounded-3xl bg-[#323337]'>
 
-      <a className="mr-5 text-white hover:text-gray-600">Timeline</a>
+          <a className="mr-5 bg-[#323337] ml-auto text-white hover:text-gray-600">Timeline</a>
+        </div>
       </div>
-      <a className="mr-5 text-[#6F7378]">Albumns</a>
-      <a className="mr-5 text-[#6F7378]">Events</a>
-      <a className="mr-5 text-[#6F7378]">Favourites</a>
-    </nav>
-    <button className="inline-flex items-center bg-gray-100 text-black border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
+      <a className="mr-5 text-[#6F7378] bg-[#000000]">Albumns</a>
+      <a className="mr-5 text-[#6F7378] bg-[#000000]">Events</a>
+      <a className="mr-5 text-[#6F7378] bg-[#000000]">Favourites</a>
+    </div>
+    <button className="inline-flex items-center w-20 bg-[#2E8BFF] border-none border-0 py-1 px-3 focus:outline-none rounded-3xl text-4xl mt-4 md:mt-0 ">
       {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
         <path d="M5 12h14M12 5l7 7-7 7"></path>
       </svg> */}
+
+
+        <AiOutlinePlusCircle className='bg-[#2E8BFF] m-auto'/>
+      
+      
     </button>
   </div>
 </header>
