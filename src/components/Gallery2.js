@@ -6,8 +6,8 @@ function Gallery2() {
       <section className=" body-font flex flex-row " >
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center justify-evenly flex-wrap">
           <div className="flex w-24 mb-20 flex-wrap flex-col font-bold text-[#2E8BFF]">
-            <h1 className="sm:text-3xl text-2xl font-medium lg:w-1/3 lg:mb-0 mb-4">Today</h1>
-            <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base ">Friday, 22 August 2022</p>
+            <h1 className="sm:text-3xl text-2xl font-medium lg:w-1/3 lg:mb-0 mb-4 ">This Week</h1>
+            <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base text-[#6F7378] ">21 to 25 August 2022</p>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 grid grid-rows-2 justify-end align-bottom">
             <div className="grid grid-cols-3 justify-items-center w-full ">

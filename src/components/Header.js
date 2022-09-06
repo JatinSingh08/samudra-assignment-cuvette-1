@@ -19,16 +19,16 @@ function Header() {
       
         <IoIosNotificationsOutline className='text-[#6F7378] text-4xl cursor-pointer hover:text-gray-600'/>
     </a>
-    <div className="md:ml-auto md:mr-auto flex flex-wrap flex-row  items-center text-base justify-center bg-[#000000] rounded-2xl ">
-      <div className=' rounded-xl bg-[#323337] max-w-3xl '>
-        <div className='w-24 mx rounded-3xl bg-[#323337]'>
+    <div className="md:ml-auto md:mr-auto w-96 h-12 flex flex-wrap flex-row  items-center text-base justify-center bg-[#000000] rounded-3xl relative">
+      <div className=' rounded-3xl bg-[#323337] w-24 h-10  '>
+        <div className='w-24 mx rounded-3xl bg-[#323337] absolute justify-items-start w'>
 
-          <a className="mr-5 bg-[#323337] ml-auto text-white hover:text-gray-600">Timeline</a>
+          <a className="mr-5 bg-[#323337] ml-auto text-white hover:text-gray-600 cursor-pointer">Timeline</a>
         </div>
       </div>
-      <a className="mr-5 text-[#6F7378] bg-[#000000]">Albumns</a>
-      <a className="mr-5 text-[#6F7378] bg-[#000000]">Events</a>
-      <a className="mr-5 text-[#6F7378] bg-[#000000]">Favourites</a>
+      <a className="mr-5 text-[#6F7378] bg-[#000000] cursor-pointer">Albumns</a>
+      <a className="mr-5 text-[#6F7378] bg-[#000000] cursor-pointer">Events</a>
+      <a className="mr-5 text-[#6F7378] bg-[#000000] cursor-pointer">Favourites</a>
     </div>
     <button className="inline-flex items-center w-20 bg-[#2E8BFF] border-none border-0 py-1 px-3 focus:outline-none rounded-3xl text-4xl mt-4 md:mt-0 ">
       {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
