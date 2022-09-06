@@ -10,7 +10,7 @@ function Gallery2() {
             <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base text-[#6F7378] ">21 to 25 August 2022</p>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 grid grid-rows-2 justify-end align-bottom">
-            <div className="grid grid-cols-3 justify-items-center w-full ">
+            <div className="md:grid md:grid-cols-3 grid grid-cols-2 justify-items-center w-full ">
               
               {/* 3 pics  */}
                 
@@ -29,7 +29,7 @@ function Gallery2() {
 
 
               <div className='flex flex-row justify-items-center relative'>
-                <div className=' grid grid-cols-3 justify-items-center '>
+                <div className=' md:grid md:grid-cols-3 grid-cols-2 grid justify-items-center '>
 
                 <div className="md:p-2 p-1 w-full">
                 <img alt="gallery" className="w-full object-cover h-full object-center block rounded-xl" src="/images/photos/10.jpg" />

@@ -16,7 +16,7 @@ function Gallery() {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 grid grid-rows-2 justify-end align-bottom">
-            <div className="md:grid md:grid-cols-3 justify-items-center w-fullgrid grid-cols-2  ">
+            <div className="md:grid md:grid-cols-3 justify-items-center w-full grid grid-cols-2 grid-wrap">
               
               {/* 3 pics  */}
                 <div className="md:p-2 p-1 w-40 h-40 ">
@@ -39,7 +39,7 @@ function Gallery() {
 
 
               <div className='flex flex-row justify-items-center relative'>
-                <div className=' grid grid-cols-3 justify-items-center '>
+                <div className=' md:grid md:grid-cols-3 grid grid-cols-2 justify-items-center '>
 
                   <div className="md:p-2 p-1 w-40 h-40 mb-0 align-baseline bottom-0">
                     <img alt="gallery" className="w-full h-full object-cover object-center block rounded-xl" src="/images/photos/4.jpg" />
